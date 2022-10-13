@@ -1,12 +1,12 @@
 getgenv().OldAimPart = "Head"
 getgenv().AimPart = "Head" -- For R15 Games: {UpperTorso, LowerTorso, HumanoidRootPart, Head} | For R6 Games: {Head, Torso, HumanoidRootPart}  
     getgenv().AimlockKey = "c"
-    getgenv().AimRadius = 10 -- How far away from someones character you want to lock on at
+    getgenv().AimRadius = 11 -- How far away from someones character you want to lock on at
     getgenv().ThirdPerson = true 
     getgenv().FirstPerson = true
     getgenv().TeamCheck = false -- Check if Target is on your Team (True means it wont lock onto your teamates, false is vice versa) (Set it to false if there are no teams)
     getgenv().PredictMovement = true -- Predicts if they are moving in fast velocity (like jumping) so the aimbot will go a bit faster to match their speed 
-    getgenv().PredictionVelocity = 5.8
+    getgenv().PredictionVelocity = 5.6
     getgenv().CheckIfJumped = true
     getgenv().Smoothness = true
     getgenv().SmoothnessAmount = 0.0058
